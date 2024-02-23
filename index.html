@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<div class="game">
+    <div class="heading">ROCK - PAPER - SCISSORS</div>
+    <div id="choices" class="slike">
+        <img src="slike/rock.png" onclick="playGame('rock')">
+        <img src="slike/paper.png" onclick="playGame('paper')">
+        <img src="slike/scissors.png" onclick="playGame('scissors')">
+    </div>
+
+    <div class="resultText">
+        <div id="playerDisplay" class="choices">Player Choice: </div>
+        <div id="computerDisplay" class="choices">Computer Choice: </div>
+        <div id="resultDisplay"></div>
+    </div>
+
+    <div class="scoreDisplay">Player score: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+    <div class="scoreDisplay">Computer score: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+    
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
